@@ -4,6 +4,11 @@ A choropleth atlas of global development. Color every country by GDP per capita,
 
 Illustrative 2022–2024 figures compiled from public World Bank / UNDP-style series.
 
+## Live
+
+- GitHub Pages: https://ahmaddroobi99.github.io/world-pulse/
+- Netlify: https://world-pulse-atlas.netlify.app
+
 ## Use it
 
 - Switch metrics in the top bar — the map recolors immediately
