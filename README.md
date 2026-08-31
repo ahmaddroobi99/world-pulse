@@ -1,22 +1,22 @@
 # World Pulse
 
-A choropleth atlas of global development. Color every country by GDP per capita, population, HDI, life expectancy, CO₂, or internet access. Pan and zoom the map, hover for a snapshot, and open a country for the full profile.
+Choropleth atlas of global development indicators. A map-first reading of public statistics — not a dashboard of invented metrics.
 
-Illustrative 2022–2024 figures compiled from public World Bank / UNDP-style series.
+## What it is
 
-## Live
+A TypeScript atlas that colors countries by development indicators (health, economy, education, environment) so comparisons are spatial rather than tabular.
 
-- GitHub Pages: https://ahmaddroobi99.github.io/world-pulse/
-- Netlify: https://world-pulse-atlas.netlify.app
+```
+Public indicator tables
+        ↓
+  Join to country geometries
+        ↓
+  Choropleth + legend + year / indicator picker
+        ↓
+  Country detail
+```
 
-## Use it
-
-- Switch metrics in the top bar — the map recolors immediately
-- Drag to pan, scroll or pinch to zoom, or use the controls
-- Click a country (or pick one from the ranking) to open its detail panel
-- Search by name or ISO3 code
-
-## Develop
+## Run
 
 ```bash
 npm install
@@ -27,3 +27,12 @@ npm run dev
 npm run build
 npm run typecheck
 ```
+
+## Honesty
+
+Indicator values come from bundled public datasets. This repository does not scrape live government APIs at runtime unless a source file says otherwise. If a layer looks empty, the join key or year is missing — it is not a “zero” in the world.
+
+## Related
+
+- [engineering-portfolio](https://github.com/ahmaddroobi99/engineering-portfolio)
+- [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — geophysical, not geopolitical, but the same bias toward making fields inspectable
