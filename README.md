@@ -36,3 +36,8 @@ Indicator values come from bundled public datasets. This repository does not scr
 
 - [engineering-portfolio](https://github.com/ahmaddroobi99/engineering-portfolio)
 - [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — geophysical, not geopolitical, but the same bias toward making fields inspectable
+
+---
+
+Account grouping: research first, undergraduate last — see the [profile README](https://github.com/ahmaddroobi99/ahmaddroobi99). GitHub cannot custom-sort the Repositories tab.
+
